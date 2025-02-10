@@ -1,3 +1,5 @@
+package BaiThucHanh_IntroductionToJava;
+
 import java.util.Scanner;
 
 public class BodyMassIndex {
