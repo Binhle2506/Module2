@@ -13,7 +13,7 @@ public class DisplayFirst20PrimeNumbers {
         }
     }
     public static boolean isPrime(int number) {
-        if ( number < 2 ) return false;
+        if ( number < 2 ) return false; // so nho hon 2 khong phai so nguyen to
         for ( int i = 2 ; i <= Math.sqrt(number) ; i++ ) {
             if ( number % i == 0 ) return false;
         }
