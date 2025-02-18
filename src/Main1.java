@@ -16,7 +16,7 @@ public class Main1 {
             System.out.println("root1 : " + equation.getRoot1());
             System.out.println("root2 : " + equation.getRoot2());
         }else if (delta == 0){
-            System.out.println("Result : " + equation.getResult());
+            System.out.println("Equations with double roots: " + equation.getEquationsWithDoubleRoots());
         }else{
             System.out.println("Inexperienced");
         }

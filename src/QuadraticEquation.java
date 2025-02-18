@@ -26,7 +26,7 @@ public class QuadraticEquation {
     public double getRoot2(){
         return (-this.b - Math.sqrt(getDiscriminant()))/(2*a);
     }
-    public double getResult(){
+    public double getEquationsWithDoubleRoots(){
         return (-this.b / (2*a));
     }
 
