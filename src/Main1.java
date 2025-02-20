@@ -20,5 +20,6 @@ public class Main1 {
         }else{
             System.out.println("Inexperienced");
         }
+
     }
 }
