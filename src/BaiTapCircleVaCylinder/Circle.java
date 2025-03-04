@@ -8,6 +8,10 @@ public class Circle {
         this.radius = radius;
         this.color = color;
     }
+
+    public Circle(double radius) {
+    }
+
     public double getRadius() {
         return radius;
     }
